@@ -1,0 +1,11 @@
+export { Product } from "./entities/product"
+export type { IProductsService } from "./interfaces/products-service"
+export { CreateProductDto } from "./dto/product/create-product-dto"
+export { FindProductsByNameDto } from "./dto/product/find-product-by-name-dto"
+export { FindProductByPluDto } from "./dto/product/find-product-by-plu-dto"
+
+export { Stock } from "./entities/stock"
+export type { IStocksService } from "./interfaces/stocks-service"
+export { CreateStockDto } from "./dto/stock/create-stock-dto"
+export { FindStockDto } from "./dto/stock/find-stock-dto"
+export { UpdateStockDto } from "./dto/stock/update-stock-dto"
